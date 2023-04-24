@@ -70,3 +70,6 @@ group :test do
   gem "selenium-webdriver"
   gem "webdrivers"
 end
+
+# Use flickr gem to access the Flickr API
+gem 'flickr', '~> 2.1'
