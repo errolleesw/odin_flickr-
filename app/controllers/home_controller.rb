@@ -5,7 +5,7 @@ class HomeController < ApplicationController
   end
   
   def flickr_photos
-    flickr = Flickr.new('9284bf41cc20d31d09daad4360bc7d0c', '080e9d82bcf81637')
+    flickr = Flickr.new(ENV['FLICKR_API_KEY'], ENV['FLICKR_API_SECRET'])
     user_id = params[:user_id]
     photos = flickr.people.getPublicPhotos(user_id: user_id)
   

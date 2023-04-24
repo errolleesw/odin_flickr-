@@ -76,3 +76,6 @@ gem 'flickr', '~> 2.1'
 
 # Use flickraw gem to access display Flickr photos from the API
 gem 'flickraw'
+
+# Use figaro to manage environment variables
+gem 'figaro'
