@@ -1,0 +1,5 @@
+<h1>Photos from <%= params[:user_id] %>:</h1>
+
+<% @photo_urls.each do |url| %>
+  <%= image_tag url %>
+<% end %>

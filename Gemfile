@@ -73,3 +73,6 @@ end
 
 # Use flickr gem to access the Flickr API
 gem 'flickr', '~> 2.1'
+
+# Use flickraw gem to access display Flickr photos from the API
+gem 'flickraw'

@@ -1,0 +1,7 @@
+<h1>Welcome to my Flickr app!</h1>
+
+<%= form_tag flickr_photos_path, method: :get do %>
+  <%= label_tag :user_id, 'Enter a Flickr user ID:' %>
+  <%= text_field_tag :user_id %>
+  <%= submit_tag 'Get Photos' %>
+<% end %>
